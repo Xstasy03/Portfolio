@@ -88,14 +88,25 @@ main section h2 {
     }
 }
 
-main a {
-    display: inline-block;
-    padding: 15px;
-    margin: 10px;
-    background-image:url("./assets/images/change");
-}
-
 a:visited,
 a:link {
 color:lightskyblue;
 }
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 2px;
+    /* min-height: 600px; */
+    flex: 1;
+    grid-gap: 20px;
+  }
+
+  .projects a {
+    background-image:url("../images/project.jpg");
+    height: 250px;
+    background-size:cover;
+    border-radius: 5px;
+    
+  }
