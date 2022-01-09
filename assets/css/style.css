@@ -49,7 +49,7 @@ main {
 }
 
 .hero-img {
-    background-image:url("./change.jpg");
+    background-image:url("../images/change.jpg");
     height: 300px;
     background-size:cover;
     display: flex;
@@ -86,4 +86,16 @@ main section h2 {
     .hero-text{
         font-size: 30px;
     }
+}
+
+main a {
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+    background-image:url("./assets/images/change");
+}
+
+a:visited,
+a:link {
+color:lightskyblue;
 }
