@@ -108,5 +108,36 @@ color:lightskyblue;
     height: 250px;
     background-size:cover;
     border-radius: 5px;
-    
+  }
+
+  .info-container {
+    border: none;
+    width: 100%;
+    display: flex;
+    padding-bottom: 30px;
+  }
+  
+  .info-title {
+    text-align: right;
+    padding: 0 25px 0 0;
+    width: 20%;
+  }
+  
+  .info-title h2 {
+    color: grey;
+    font-size: 30px;
+    transform: color 0.5s;
+  }
+  
+  .info-title:hover h2 {
+    color: white;
+  }
+
+  .info-content {
+    border-left: solid white;
+    padding: 0 0 0 25px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
