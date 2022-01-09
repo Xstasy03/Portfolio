@@ -12,10 +12,6 @@ font-family: Arial, Helvetica, sans-serif;
 background-color: black;
 }
 
-p {
-margin: 0.5em 0 0.5em 0;
-}
-
 header {
     display: block;
     width: 100%;
@@ -214,9 +210,9 @@ color:lightskyblue;
   
   .grid-item a {
     z-index: 1;
-    background-color: var(--tertiary-color);
+    background-color: white;
     padding: 10px;
-    color: var(--primary-color);
+    color: lightskyblue;
     font-weight: bold;
     transform: color 0.2s;
   }
@@ -228,4 +224,26 @@ color:lightskyblue;
   .grid-item h3 {
     font-size: 15px;
     padding-top: 5px;
+  }
+
+  .contact-info {
+    padding: 30px 0;
+    margin: 0 7px;
+  }
+  
+  .contact-info a,
+  .contact-info p {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    transform: color 0.2s;
+  }
+  
+  .contact-info a:hover,
+  .contact-info p:hover {
+    color: white;
+  }
+  
+  .contact-info p {
+    text-decoration: underline;
   }
